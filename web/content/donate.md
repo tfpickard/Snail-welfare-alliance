@@ -27,7 +27,7 @@ We're a small operation. Every dollar goes directly to campaign work. No overhea
 
 [Donate button — amount selector: $10 / $25 / $50 / other]
 
-All donations are [processed via / tax-deductible under / etc. — *fill in legal structure when entity is registered*].
+All donations are made to Snail Welfare Alliance. [*Legal entity details — tax-deductible status, processing, and jurisdiction to be filled in when entity is registered.*]
 
 ---
 

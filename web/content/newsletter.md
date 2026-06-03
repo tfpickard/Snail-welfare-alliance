@@ -26,7 +26,7 @@ Monthly at most. Usually less. We'd rather write one email worth reading than tw
 
 **Subject:** Welcome — here's where things stand.
 
-You've signed up for updates from [campaign name]. Here's what we're working on and why.
+You've signed up for updates from Snail Welfare Alliance. Here's what we're working on and why.
 
 **The short version:** Tyrian purple — the "color of emperors" — is still made by killing sea snails at a rate of roughly 10,000 per gram. The identical molecule (6,6′-dibromoindigo) has been synthesizable since 1904 and is commercially available. We're here to close that gap.
 
@@ -36,7 +36,7 @@ You've signed up for updates from [campaign name]. Here's what we're working on 
 
 We'll write when there's news. Thanks for being here.
 
-— [Campaign name]
+— Snail Welfare Alliance
 
 ---
 

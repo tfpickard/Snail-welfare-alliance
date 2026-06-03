@@ -12,9 +12,15 @@
 
 ---
 
+## Org tagline
+
+*Snail Welfare Alliance — solidarity across species.*
+
+---
+
 ## What this is (one paragraph)
 
-This campaign exists to end the needless killing of sea snails for a luxury dye that no longer requires them. We're not campaigning against beauty, tradition, or the color purple. We're pointing at one specific thing: the continued lethal extraction of Tyrian purple from *Bolinus brandaris* and related murex species, when a chemically identical synthetic — the same molecule, 6,6′-dibromoindigo — is freely available and has been for over a century. The harm is small in scale, gratuitous in nature, and trivial to prevent. That combination makes it the kind of problem worth fixing.
+Snail Welfare Alliance exists to end the needless killing of sea snails for a luxury dye that no longer requires them. We're not campaigning against beauty, tradition, or the color purple. We're pointing at one specific thing: the continued lethal extraction of Tyrian purple from *Bolinus brandaris* and related murex species, when a chemically identical synthetic — the same molecule, 6,6′-dibromoindigo — is freely available and has been for over a century. The harm is small in scale, gratuitous in nature, and trivial to prevent. That combination makes it the kind of problem worth fixing.
 
 ---
 

@@ -1,5 +1,4 @@
-# Brand Guide — Snail Welfare Campaign
-*Working name: SAVE THE SNAILS (wordmark layer, swap-ready)*
+# Brand Guide — Snail Welfare Alliance
 
 ---
 
@@ -96,7 +95,8 @@ Full documentation is in `brand/logos/` and `brand/wordmarks/`. Summary rules:
    - Apply drop shadows
    - Use on photographic backgrounds without a solid field behind
    - Combine the mark with competing illustration at same scale
-5. **Wordmark layer:** The wordmark is on a separate layer/group in every source file. Swap `SAVE THE SNAILS` for the final campaign name without touching the mark geometry.
+5. **Compact mark:** The SWA monogram (`mark-monogram-swa.svg`) is the compact mark for small applications — favicons, app icons, embroidery, stamp-size uses. Use the full lockup wherever space allows.
+6. **Wordmark:** All wordmarks and lockups now read **Snail Welfare Alliance**.
 
 ---
 
@@ -135,16 +135,20 @@ Intelligent. Wry. Unambiguous. We do not moralise; we present facts that are so 
 
 ---
 
-## Campaign Name Candidates
+## Campaign & Sub-brand Names
 
-The final name is TBD — Tom selects from `copy/taglines.md`. Until then all wordmarks read **SAVE THE SNAILS** and wordmark files are swap-ready.
+The organization name is locked: **Snail Welfare Alliance** (SWA). The brand operates on three layers:
 
-Shortlist for consideration (full list in `copy/taglines.md`):
-- **The Murex Project** — clean, scientific, slightly ominous
-- **Purple Without Death** — declarative, memorable, implies the solution
-- **10,000 Snails** — the number does the work; unsettling
-- **Same Molecule** — insider/knowing; targets the connoisseur directly
+| Layer | Name | Notes |
+|-------|------|-------|
+| Parent org | **Snail Welfare Alliance** (SWA) | The institution. All legal, domain, and formal references. |
+| Flagship campaign | **"Where Are the Snails?"** | Awareness campaign under SWA. Preserve; do not collapse into the org name. |
+| Merch sub-brand | **"Save the Snails"** | Apparel and merch line only. Lives on t-shirt and product copy. |
+
+The "Alliance" framing is deliberate: this is an open coalition across backgrounds — researchers, designers, donors, advocates — not a top-down charity asking for sympathy. Copy should reflect that register where natural.
+
+The remaining open choice is which tagline to run on the homepage. Candidates are in `copy/taglines.md`; the shortlist recommendation is **"The color of emperors. The cost of everything."**
 
 ---
 
-*Version 0.1 — June 2026. For review by Tom before web build.*
+*Version 0.2 — June 2026. Org name locked as Snail Welfare Alliance (SWA).*

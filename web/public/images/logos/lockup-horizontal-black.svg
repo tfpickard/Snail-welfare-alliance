@@ -19,19 +19,19 @@
   <line x1="78" y1="14" x2="78" y2="66" stroke="#1A1209" stroke-width="0.8" opacity="0.4"/>
 
   <!-- Wordmark — two-line stacked in lockup -->
-  <!-- SAVE THE -->
+  <!-- SNAIL WELFARE -->
   <text x="90" y="34"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="18"
     font-weight="normal"
     letter-spacing="6"
-    fill="#1A1209">SAVE THE</text>
-  <!-- SNAILS -->
+    fill="#1A1209">SNAIL WELFARE</text>
+  <!-- ALLIANCE -->
   <text x="90" y="60"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="26"
     font-weight="normal"
     letter-spacing="7"
-    fill="#1A1209">SNAILS</text>
+    fill="#1A1209">ALLIANCE</text>
 
 </svg>

@@ -40,9 +40,15 @@ Because we exist specifically to work on this. Different causes benefit from dif
 
 ---
 
+**What is Snail Welfare Alliance?**
+
+Snail Welfare Alliance (SWA) is an open coalition of researchers, designers, donors, and advocates working to end the lethal extraction of Tyrian purple from murex snails. The org name reflects the model: this isn't a top-down charity asking for sympathy — it's a coordinated effort across backgrounds to make one specific, winnable argument land. Our flagship campaign is "Where Are the Snails?" The merch line is "Save the Snails."
+
+---
+
 **What's your legal structure? Are donations tax-deductible?**
 
-*[Entity details — fill in when registered. Placeholder: We're in early formation. Check back for updates on tax-deductible giving.]*
+*[Entity details — fill in when registered. Snail Welfare Alliance is in early formation. Check back for updates on tax-deductible giving.]*
 
 ---
 
@@ -57,4 +63,4 @@ Because we exist specifically to work on this. Different causes benefit from dif
 
 **Are you affiliated with any other organization?**
 
-No. We're independent.
+No. Snail Welfare Alliance is independent.

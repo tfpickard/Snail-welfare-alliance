@@ -1,29 +1,39 @@
-# Taglines & Campaign Name Candidates
+# Taglines & Campaign Names
 
-*8–10 options for Tom to choose from. Each with a brief note on register and use.*
-
----
-
-## Campaign Names (working name is "SAVE THE SNAILS" — these are full-name candidates)
-
-**1. The Murex Project**
-Clean, scientific, slightly ominous. Works well as a formal org name. Doesn't tip the hand; invites curiosity. *"What's the Murex Project?"* is a question worth creating.
-
-**2. Purple Without Death**
-Declarative. Memorable. Contains both the cause and the solution. Implies the existence of an alternative without spelling it out. Strong as both a name and a tagline.
-
-**3. 10,000 Snails**
-The number does all the work. Arresting, specific, and unsettling without being graphic. Works as a name, a hashtag, and a merch line. Potential: high.
-
-**4. Same Molecule**
-Insider/knowing. Targets the connoisseur and the chemist simultaneously. Works as a name for a more cerebral campaign. Possibly too quiet for a general audience — but right for the target.
-
-**5. The Hypobranchial**
-Highly specific — the hypobranchial gland is the organ from which the dye is extracted. Rewards those who look it up; genuinely interesting as a name. Might be too obscure to spread easily.
+*Org name is locked: **Snail Welfare Alliance** (SWA). The remaining choice is which tagline to run on the homepage.*
 
 ---
 
-## Taglines (any campaign name)
+## Campaign & Sub-brand Names
+
+The brand operates on three layers:
+
+| Layer | Name | Notes |
+|-------|------|-------|
+| Parent org | **Snail Welfare Alliance** (SWA) | Locked. All formal and legal references. |
+| Flagship campaign | **"Where Are the Snails?"** | Awareness campaign under SWA. Preserve. |
+| Merch sub-brand | **"Save the Snails"** | Apparel/merch line. Lives on product copy. |
+
+The following names were considered as the org name and remain available as campaign or sub-campaign titles if needed:
+
+**The Murex Project**
+Clean, scientific, slightly ominous. Doesn't tip the hand; invites curiosity. Could work as a sub-campaign or research-facing initiative name.
+
+**Purple Without Death**
+Declarative. Contains both the cause and the solution. Strong as a campaign tagline or section header.
+
+**10,000 Snails**
+Arresting, specific, unsettling. Works as a campaign name, hashtag, or merch line. High potential for spread.
+
+**Same Molecule**
+Insider/knowing. Targets the connoisseur and the chemist simultaneously. Right for more targeted outreach.
+
+**The Hypobranchial**
+Highly specific — the hypobranchial gland is the organ from which the dye is extracted. Rewards the curious. Might be too obscure to spread easily but could work for a science-facing newsletter or microsite.
+
+---
+
+## Taglines
 
 **6. The color of emperors. The cost of everything.**
 For the homepage hero. Elegant, alarming. "The cost of everything" works on two levels: historical (worth 3× gold) and ethical (lives).
@@ -50,6 +60,8 @@ Clear argument discipline in one sentence. Works for the more targeted messaging
 
 ## Shortlist recommendation (Tom's call)
 
-For maximum impact and spread: **"10,000 Snails"** as the name, **"The color of emperors. The cost of everything."** as the homepage tagline. Clean, memorable, and the number is the campaign in miniature.
+The org name is **Snail Welfare Alliance**. The remaining choice is the homepage tagline.
 
-Runner-up: **"Purple Without Death"** — more poetic, slightly softer, works if the campaign wants to lead with the solution rather than the problem.
+**Recommended:** **"The color of emperors. The cost of everything."** — elegant, alarming, and does not name the org or the practice. Works as a pure hero line that draws the reader in before the argument lands.
+
+**Runner-up:** **"10,000 snails. One gram. No reason."** — shorter, more brutal, the number is the whole campaign in miniature. If the audience is already adjacent to the cause, this hits harder.

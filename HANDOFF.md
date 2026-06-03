@@ -1,4 +1,4 @@
-# Snail Campaign — Handoff to Claude Code
+# Snail Welfare Alliance — Handoff to Claude Code
 
 This document describes a Next.js website project for a snail welfare campaign. Read it fully before touching any files.
 
@@ -10,7 +10,15 @@ A campaign website to raise awareness that Tyrian purple dye — still used in l
 
 Tone: intelligent, wry, unsentimental. Not a petition site. Not cute.
 
-Working name: **SAVE THE SNAILS**. Tom has not yet selected the final campaign name — wordmark SVGs are swap-ready (the wordmark is on a named layer in every file). Top candidates: **"10,000 Snails"** (name) + **"The color of emperors. The cost of everything."** (tagline).
+Org name is locked: **Snail Welfare Alliance** (SWA). The brand operates on three layers:
+
+| Layer | Name | Notes |
+|-------|------|-------|
+| Parent org | **Snail Welfare Alliance** (SWA) | Locked. All formal and legal references. |
+| Flagship campaign | **"Where Are the Snails?"** | Awareness campaign under SWA. Preserve. |
+| Merch sub-brand | **"Save the Snails"** | Apparel/merch line only. Lives on product copy. |
+
+Remaining open decision: homepage tagline. Top candidate: **"The color of emperors. The cost of everything."**
 
 ---
 
@@ -22,8 +30,8 @@ snail-campain/               ← git root
 ├── snail-campaign/          ← canonical brand assets (source of truth — do not edit)
 │   ├── brand/
 │   │   ├── brand-guide.md
-│   │   ├── logos/           ← 10 SVG logo/lockup files
-│   │   └── wordmarks/       ← 3 SVG wordmark files (NOT yet copied to web/)
+│   │   ├── logos/           ← 13 SVG logo/lockup files (incl. 3 new SWA monograms)
+│   │   └── wordmarks/       ← 3 SVG wordmark files
 │   ├── copy/                ← 7 markdown copy files (homepage, the-facts, about, donate, newsletter, faq, taglines)
 │   ├── data/
 │   │   └── research-dossier.md
@@ -52,9 +60,10 @@ snail-campain/               ← git root
         └── faq/page.tsx            ← /faq
 ```
 
-**Two things not yet copied to `web/public/`:**
+**One thing not yet copied to `web/public/`:**
 - `snail-campaign/web-assets/hero/hero-contrast-pair.svg` → needs to land at `web/public/images/hero-contrast-pair.svg`
-- `snail-campaign/brand/wordmarks/*.svg` → copy to `web/public/images/wordmarks/`
+
+Wordmarks are now at `web/public/images/wordmarks/` (copied). SWA monograms are at `web/public/images/logos/`.
 
 ---
 
@@ -112,9 +121,10 @@ Hard rules: never claim sentience as *proven* (frame as precautionary); never at
 
 ## 5. Assets in `web/public/images/`
 
-**logos/** (10 files):
+**logos/** (13 files):
 - `mark-primary-black.svg`, `mark-primary-purple.svg`, `mark-primary-white.svg`
 - `mark-alt-a-shell-profile.svg`, `mark-alt-b-spiral.svg`, `mark-alt-c-snail.svg`
+- `mark-monogram-swa.svg`, `mark-monogram-swa-purple.svg`, `mark-monogram-swa-white.svg`
 - `lockup-horizontal-black.svg`, `lockup-horizontal-purple.svg`, `lockup-horizontal-reversed.svg`
 - `lockup-stacked-black.svg`
 
@@ -148,16 +158,16 @@ Files: `homepage.md`, `the-facts.md`, `about.md`, `donate.md`, `newsletter.md`, 
 
 **Recommended content strategy:** Install `gray-matter` + `remark` (or `next-mdx-remote` if you want JSX in markdown). Each page reads its corresponding `.md` file at build time via `fs` in a server component. Don't use a CMS — content is file-based.
 
-**Top tagline candidates:**
-1. **"10,000 Snails"** (name) + **"The color of emperors. The cost of everything."** (tagline) — recommended
-2. **"Purple Without Death"** (name) — leads with the solution
-3. **"Same Molecule"** (name) — cerebral, targets connoisseurs
+**Org name is locked: Snail Welfare Alliance.** The remaining choice is the homepage tagline. Top candidates:
+1. **"The color of emperors. The cost of everything."** — recommended homepage hero line
+2. **"10,000 snails. One gram. No reason."** — shorter, more brutal, number-forward
+3. **"An identical synthetic has existed since 1904."** — fact as tagline; hits hardest for an adjacent audience
 
 ---
 
 ## 7. Pending Decisions (need Tom before building)
 
-1. **Campaign name/tagline** — pick from `web/content/taglines.md`
+1. **Homepage tagline** — org name locked as SWA; pick tagline from `web/content/taglines.md`
 2. **T-shirt designs** — review 5 designs in `web/public/images/tshirts/`, flag any to cut or revise
 3. **Legal entity details** — `web/content/donate.md` and `web/content/newsletter.md` have placeholders
 4. **Hero illustration direction** — `hero-contrast-pair.svg` is currently pure monochrome line art; Tom to confirm whether to add selective Tyrian Purple wash to the dye-drop element
@@ -174,12 +184,11 @@ Add brand colors as named utilities in `tailwind.config.ts` (or `globals.css` `@
 **2. Root layout**
 `web/src/app/layout.tsx` — nav with all 6 routes, site name/logo, footer. Use `lockup-horizontal-black.svg` as the nav logo. Background: `vellum`. Text: `engravers`.
 
-**3. Copy the missing assets**
+**3. Copy the missing hero asset**
 ```bash
 cp snail-campaign/web-assets/hero/hero-contrast-pair.svg web/public/images/
-mkdir -p web/public/images/wordmarks
-cp snail-campaign/brand/wordmarks/*.svg web/public/images/wordmarks/
 ```
+Wordmarks and SWA monograms are already in `web/public/images/`.
 
 **4. Homepage**
 Hero section: `hero-contrast-pair.svg` full-width, tagline overlay (placeholder until Tom picks one). Stat callout: "10,000 snails per gram." CTA: link to `/the-facts`.

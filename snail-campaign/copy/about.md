@@ -4,9 +4,11 @@
 
 ## Our mission
 
-We exist to end the needless killing of sea snails. Specifically: the lethal extraction of Tyrian purple from murex snails, for a dye whose identical synthetic substitute has been available since 1904.
+Snail Welfare Alliance exists to end the needless killing of sea snails. Specifically: the lethal extraction of Tyrian purple from murex snails, for a dye whose identical synthetic substitute has been available since 1904.
 
 That's it. One unnecessary practice. One specific molecule. The clearest, most immediately winnable front we could find.
+
+SWA is an open coalition — researchers, designers, donors, and advocates across disciplines and backgrounds. Not a top-down charity asking for sympathy, but a coordinated effort to make one small, specific, obviously winnable argument land.
 
 ---
 
@@ -50,4 +52,4 @@ We don't ask anyone to give anything up. We ask them to make one extremely small
 
 ---
 
-*This is a campaign in early development. If you want to get involved — as a researcher, designer, donor, or advocate — we want to hear from you.*
+*Snail Welfare Alliance is in early development. If you want to get involved — as a researcher, designer, donor, or advocate — we want to hear from you.*

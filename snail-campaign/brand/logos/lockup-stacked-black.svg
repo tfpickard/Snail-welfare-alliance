@@ -18,8 +18,8 @@
   <!-- Thin rule under mark -->
   <line x1="40" y1="96" x2="140" y2="96" stroke="#1A1209" stroke-width="0.6" opacity="0.35"/>
 
-  <!-- Wordmark: SAVE THE / SNAILS stacked, centered -->
-  <text x="90" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="5" fill="#1A1209" text-anchor="middle">SAVE THE</text>
-  <text x="90" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="7" fill="#1A1209" text-anchor="middle">SNAILS</text>
+  <!-- Wordmark: SNAIL WELFARE / ALLIANCE stacked, centered -->
+  <text x="90" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="5" fill="#1A1209" text-anchor="middle">SNAIL WELFARE</text>
+  <text x="90" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="7" fill="#1A1209" text-anchor="middle">ALLIANCE</text>
 
 </svg>

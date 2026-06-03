@@ -1,6 +1,6 @@
-# Snail Campaign — Asset Index
+# Snail Welfare Alliance — Asset Index
 
-*Working name: SAVE THE SNAILS (wordmark swap-ready — select final name from `copy/taglines.md`)*
+*Org name locked: **Snail Welfare Alliance** (SWA). See `copy/taglines.md` for tagline selection.*
 *Status: initial asset generation pass, June 2026. For review by Tom before web build.*
 
 ---
@@ -9,7 +9,7 @@
 
 - Brand direction and palette → `brand/brand-guide.md`
 - Source-of-truth research → `data/research-dossier.md`
-- Campaign name / tagline candidates → `copy/taglines.md`
+- Tagline candidates (org name is locked; tagline TBD) → `copy/taglines.md`
 - Print/POD guidance for merch → `merch/print-notes.md`
 
 ---
@@ -24,19 +24,22 @@
 | `logos/mark-primary-black.svg` | Primary murex mark, Engraver's Black | ✅ Done |
 | `logos/mark-primary-purple.svg` | Primary murex mark, Tyrian Purple | ✅ Done |
 | `logos/mark-primary-white.svg` | Primary murex mark, reversed on purple bg | ✅ Done |
-| `logos/lockup-horizontal-black.svg` | Mark + wordmark horizontal, black | ✅ Done |
-| `logos/lockup-horizontal-purple.svg` | Mark + wordmark horizontal, purple | ✅ Done |
-| `logos/lockup-horizontal-reversed.svg` | Mark + wordmark horizontal, white on purple | ✅ Done |
-| `logos/lockup-stacked-black.svg` | Mark above wordmark, stacked, black | ✅ Done |
+| `logos/lockup-horizontal-black.svg` | Mark + "Snail Welfare Alliance" wordmark horizontal, black | ✅ Done |
+| `logos/lockup-horizontal-purple.svg` | Mark + "Snail Welfare Alliance" wordmark horizontal, purple | ✅ Done |
+| `logos/lockup-horizontal-reversed.svg` | Mark + "Snail Welfare Alliance" wordmark horizontal, white on purple | ✅ Done |
+| `logos/lockup-stacked-black.svg` | Mark above "Snail Welfare Alliance" wordmark, stacked, black | ✅ Done |
 | `logos/mark-alt-a-shell-profile.svg` | Alt mark A: Bolinus brandaris frontal profile, spiny, symmetrical | ✅ Done |
 | `logos/mark-alt-b-spiral.svg` | Alt mark B: logarithmic shell spiral abstraction (favicon-ready) | ✅ Done |
 | `logos/mark-alt-c-snail.svg` | Alt mark C: whole snail with body, foot, and antennae | ✅ Done |
-| `wordmarks/wordmark-black.svg` | Wordmark only, black, swap-ready layer | ✅ Done |
+| `logos/mark-monogram-swa.svg` | SWA monogram, compact mark, Engraver's Black | ✅ Done |
+| `logos/mark-monogram-swa-purple.svg` | SWA monogram, Tyrian Purple | ✅ Done |
+| `logos/mark-monogram-swa-white.svg` | SWA monogram, white on Tyrian Purple | ✅ Done |
+| `wordmarks/wordmark-black.svg` | Wordmark only, black | ✅ Done |
 | `wordmarks/wordmark-purple.svg` | Wordmark only, purple | ✅ Done |
 | `wordmarks/wordmark-reversed.svg` | Wordmark only, reversed on purple | ✅ Done |
 
 **Needs from Tom:**
-- Final campaign name selection (see `copy/taglines.md`)
+- Homepage tagline selection (org name locked; see `copy/taglines.md` for shortlist)
 - Final typeface selections (brand guide gives direction; web build phase picks the fonts)
 - PNG exports at required sizes (these SVGs are the masters; export workflow TBD)
 
@@ -60,7 +63,7 @@
 | `donate.md` | Conversion copy, fund use breakdown | ✅ Done — legal entity details TBD |
 | `newsletter.md` | Sign-up copy, welcome email draft | ✅ Done |
 | `faq.md` | 9 objections answered, including scale, sentience, Mexico, religion | ✅ Done |
-| `taglines.md` | 12 name and tagline candidates with notes | ✅ Done — **needs Tom's selection** |
+| `taglines.md` | Org name locked as SWA; tagline candidates with notes | ✅ Done — **needs Tom's tagline selection** |
 
 ---
 
@@ -102,7 +105,7 @@
 
 ## Flags / blockers
 
-1. **Campaign name** — All wordmarks currently read "SAVE THE SNAILS." Select from `copy/taglines.md` to swap.
+1. **Homepage tagline** — Org name is locked as Snail Welfare Alliance. Select homepage tagline from `copy/taglines.md`.
 2. **Legal entity** — `donate.md` and `newsletter.md` have placeholders for tax/legal structure. Fill in when entity is formed.
 3. **Website URL** — Placeholder `SAVETHESNAILS.ORG` appears in `tshirt-02-stark-statistic.svg`. Update to final domain.
 4. **Font lock-in** — Brand guide gives direction; final typeface selection happens in web build phase. SVG text currently uses Georgia as a fallback — replace with chosen typefaces when building.

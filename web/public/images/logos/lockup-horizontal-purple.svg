@@ -13,6 +13,6 @@
     <path d="M40 90 C 34 90, 28 88, 24 84 C 20 80, 20 74, 24 70 C 28 66, 34 64, 38 66" />
   </g>
   <line x1="78" y1="14" x2="78" y2="66" stroke="#5C0A3A" stroke-width="0.8" opacity="0.4"/>
-  <text x="90" y="34" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="normal" letter-spacing="6" fill="#5C0A3A">SAVE THE</text>
-  <text x="90" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="normal" letter-spacing="7" fill="#5C0A3A">SNAILS</text>
+  <text x="90" y="34" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="normal" letter-spacing="6" fill="#5C0A3A">SNAIL WELFARE</text>
+  <text x="90" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="normal" letter-spacing="7" fill="#5C0A3A">ALLIANCE</text>
 </svg>
