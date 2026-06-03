@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 3200" width="2400" height="3200">
+  <!--
+    T-SHIRT DESIGN 02: The Stark/Serious Statistic
+    Full-back placement. A large centered numeral "10,000" above the shell mark.
+    Below: "snails per gram / for the color of emperors / an identical synthetic exists"
+    Line art, Engraver's Black. Shirt color recommendation: black (print in bone/off-white)
+    — provided here in black for bone/natural shirt; invert for black shirt.
+  -->
+
+  <!-- The number — massive, dominant -->
+  <text x="1200" y="800"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="600" font-weight="normal"
+    letter-spacing="-10"
+    fill="#1A1209"
+    text-anchor="middle">10,000</text>
+
+  <!-- Subtitle: what it means -->
+  <text x="1200" y="960"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="100" font-weight="normal"
+    letter-spacing="14"
+    fill="#1A1209"
+    opacity="0.7"
+    text-anchor="middle">SNAILS PER GRAM</text>
+
+  <!-- Fine rule -->
+  <line x1="300" y1="1020" x2="2100" y2="1020" stroke="#1A1209" stroke-width="3" opacity="0.2"/>
+
+  <!-- Shell mark — large, centered, below the number -->
+  <g transform="translate(600, 1060) scale(10)" fill="none" stroke="#1A1209" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 60 95 C 38 95, 22 80, 22 62 C 22 44, 36 30, 54 28 C 72 26, 86 38, 88 54 C 90 68, 82 80, 70 84 C 60 88, 50 82, 48 72 C 46 62, 52 54, 60 52 C 68 50, 74 56, 74 64 C 74 70, 70 74, 64 74 C 58 74, 56 70, 58 66"/>
+    <path d="M 58 66 C 59 63, 62 62, 65 63 C 68 64, 69 67, 68 70 C 67 73, 64 74, 62 73"/>
+    <path d="M 54 28 C 56 22, 60 18, 64 16"/>
+    <path d="M 64 16 C 67 14, 70 15, 72 18 C 74 21, 74 26, 72 30"/>
+    <path d="M 42 88 C 38 92, 34 98, 32 104 C 31 107, 32 110, 34 111 C 36 112, 38 110, 39 107 C 40 104, 42 100, 44 96 C 46 92, 48 90, 50 90"/>
+    <path d="M 88 54 C 92 54, 95 56, 95 60 C 95 65, 92 70, 88 74 C 86 76, 84 78, 82 82 C 80 86, 78 90, 76 93 C 74 95, 72 96, 70 95"/>
+    <path d="M 50 90 C 44 90, 38 88, 34 84 C 30 80, 30 74, 34 70 C 38 66, 44 64, 48 66"/>
+    <path d="M 72 30 C 74 28, 76 26, 78 27 C 80 28, 80 30, 79 32"/>
+    <path d="M 82 42 C 84 40, 87 40, 88 42 C 89 44, 88 46, 86 47"/>
+  </g>
+
+  <!-- Fine rule below mark -->
+  <line x1="300" y1="2200" x2="2100" y2="2200" stroke="#1A1209" stroke-width="3" opacity="0.2"/>
+
+  <!-- The argument, three lines -->
+  <text x="1200" y="2360"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="90" font-weight="normal"
+    letter-spacing="10"
+    fill="#1A1209"
+    opacity="0.85"
+    text-anchor="middle">FOR THE COLOR OF EMPERORS.</text>
+
+  <text x="1200" y="2500"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="90" font-weight="normal"
+    letter-spacing="6"
+    fill="#1A1209"
+    opacity="0.65"
+    text-anchor="middle">An identical synthetic exists.</text>
+
+  <text x="1200" y="2660"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="76" font-weight="normal"
+    letter-spacing="8"
+    fill="#1A1209"
+    opacity="0.45"
+    text-anchor="middle">6,6′-dibromoindigo · since 1904</text>
+
+  <!-- URL-style bottom tag -->
+  <text x="1200" y="2900"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="58" font-weight="normal"
+    letter-spacing="12"
+    fill="#1A1209"
+    opacity="0.3"
+    text-anchor="middle">SAVETHESNAILS.ORG</text>
+
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2400" width="2400" height="2400">
+  <!--
+    T-SHIRT DESIGN 03: Typographic
+    "UNNECESSARY." — single word, enormous, left-aligned, with a small shell ornament
+    The word does all the work. No qualification. Front chest, oversized.
+    Shirt color recommendation: bone or natural
+  -->
+
+  <!-- Small shell mark, top-left anchor -->
+  <g transform="translate(180, 180) scale(4.5)" fill="none" stroke="#1A1209" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 60 95 C 38 95, 22 80, 22 62 C 22 44, 36 30, 54 28 C 72 26, 86 38, 88 54 C 90 68, 82 80, 70 84 C 60 88, 50 82, 48 72 C 46 62, 52 54, 60 52 C 68 50, 74 56, 74 64 C 74 70, 70 74, 64 74 C 58 74, 56 70, 58 66"/>
+    <path d="M 58 66 C 59 63, 62 62, 65 63 C 68 64, 69 67, 68 70 C 67 73, 64 74, 62 73"/>
+    <path d="M 54 28 C 56 22, 60 18, 64 16"/>
+    <path d="M 64 16 C 67 14, 70 15, 72 18 C 74 21, 74 26, 72 30"/>
+    <path d="M 42 88 C 38 92, 34 98, 32 104 C 31 107, 32 110, 34 111 C 36 112, 38 110, 39 107 C 40 104, 42 100, 44 96 C 46 92, 48 90, 50 90"/>
+    <path d="M 88 54 C 92 54, 95 56, 95 60 C 95 65, 92 70, 88 74 C 86 76, 84 78, 82 82 C 80 86, 78 90, 76 93 C 74 95, 72 96, 70 95"/>
+    <path d="M 50 90 C 44 90, 38 88, 34 84 C 30 80, 30 74, 34 70 C 38 66, 44 64, 48 66"/>
+  </g>
+
+  <!-- Thin underline rule from shell -->
+  <line x1="180" y1="640" x2="2220" y2="640" stroke="#1A1209" stroke-width="3" opacity="0.2"/>
+
+  <!-- The word — massive, left-aligned to column grid -->
+  <text x="180" y="1100"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="290" font-weight="normal"
+    letter-spacing="-4"
+    fill="#1A1209">UNNEC-</text>
+
+  <text x="180" y="1460"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="290" font-weight="normal"
+    letter-spacing="-4"
+    fill="#1A1209">ESSARY.</text>
+
+  <!-- Fine rule below -->
+  <line x1="180" y1="1560" x2="2220" y2="1560" stroke="#1A1209" stroke-width="3" opacity="0.2"/>
+
+  <!-- Explanatory subtext: right-aligned, quiet -->
+  <text x="2220" y="1660"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="80" fill="#1A1209" opacity="0.45"
+    text-anchor="end">The killing of ~10,000 sea snails per gram of Tyrian purple.</text>
+
+  <text x="2220" y="1770"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="80" fill="#1A1209" opacity="0.35"
+    text-anchor="end">The identical molecule has existed synthetically since 1904.</text>
+
+</svg>

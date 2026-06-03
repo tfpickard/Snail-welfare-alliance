@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 3000" width="2400" height="3000">
+  <!--
+    T-SHIRT DESIGN 04: Natural History Plate
+    A large, gorgeous, detailed murex shell drawing — full-back
+    Botanical-plate aesthetic: shell centered, fine engraving detail,
+    Latin binomial at bottom. The cause implied, not stated.
+    Line art, Engraver's Black on bone/natural shirt.
+    This is the pure beauty piece. No slogan. Just the animal.
+  -->
+
+  <!-- Main shell — scaled up from spot illustration, centered, dominant -->
+  <g transform="translate(200, 240) scale(7.2)" fill="none" stroke="#1A1209" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Primary body outline -->
+    <path d="M 140 175 C 102 175, 74 152, 74 122 C 74 92, 98 68, 128 64 C 158 60, 182 76, 186 100 C 190 122, 176 146, 156 154 C 138 162, 118 154, 114 138 C 110 122, 120 108, 136 106 C 152 104, 164 114, 164 130 C 164 142, 156 150, 146 150 C 136 150, 130 144, 132 136"
+      stroke-width="1.8"/>
+
+    <!-- Spire — multiple tight whorls -->
+    <path d="M 128 64 C 130 52, 134 42, 138 34" stroke-width="1.8"/>
+    <path d="M 138 34 C 140 28, 144 24, 148 22 C 152 20, 158 22, 162 28 C 166 34, 166 44, 162 54 C 158 62, 152 68, 148 70"
+      stroke-width="1.8"/>
+    <path d="M 148 70 C 150 62, 154 56, 156 52 C 158 48, 160 48, 161 50 C 163 54, 162 60, 158 66"
+      stroke-width="1.6"/>
+    <!-- Spire apex -->
+    <path d="M 148 22 C 149 16, 152 10, 154 7 C 155 5, 157 5, 158 7 C 160 10, 160 16, 159 22"
+      stroke-width="1.5"/>
+
+    <!-- Suture lines -->
+    <path d="M 80 118 C 94 112, 110 108, 128 108 C 146 108, 162 112, 176 118" stroke-width="1.0"/>
+    <path d="M 84 102 C 96 96, 112 92, 130 91 C 148 90, 162 94, 174 100" stroke-width="0.9"/>
+    <path d="M 90 86 C 100 81, 114 78, 130 77 C 146 76, 160 79, 172 84" stroke-width="0.8"/>
+    <path d="M 100 72 C 108 68, 120 65, 134 65 C 148 65, 160 68, 168 73" stroke-width="0.7"/>
+    <path d="M 116 60 C 122 57, 130 55, 138 55 C 146 55, 154 57, 160 60" stroke-width="0.6"/>
+
+    <!-- Siphonal canal -->
+    <path d="M 100 166 C 92 172, 86 180, 82 190 C 80 196, 82 200, 86 200 C 90 200, 92 196, 94 190 C 96 184, 100 178, 106 172 C 110 168, 114 166, 118 166"
+      stroke-width="1.8"/>
+
+    <!-- Outer lip -->
+    <path d="M 186 100 C 194 100, 200 104, 200 112 C 200 122, 194 132, 186 140 C 182 144, 178 150, 174 158 C 170 164, 166 170, 162 174 C 158 177, 154 178, 150 176 C 146 174, 144 172, 142 172"
+      stroke-width="1.8"/>
+
+    <!-- Varices / axial ribs -->
+    <path d="M 186 100 C 190 92, 190 82, 186 74 C 182 66, 174 62, 166 62" stroke-width="1.4"/>
+    <path d="M 80 118 C 74 110, 72 98, 76 88 C 80 78, 88 72, 96 70" stroke-width="1.4"/>
+
+    <!-- Shoulder spines -->
+    <path d="M 162 54 C 166 50, 172 48, 174 44 C 176 40, 174 36, 170 36" stroke-width="1.2"/>
+    <path d="M 172 66 C 178 63, 184 62, 188 60 C 192 58, 192 54, 188 53" stroke-width="1.2"/>
+    <path d="M 180 80 C 186 78, 192 78, 196 78 C 200 78, 202 75, 200 72" stroke-width="1.2"/>
+    <path d="M 186 96 C 192 95, 198 96, 202 98 C 206 100, 206 104, 202 106" stroke-width="1.2"/>
+    <path d="M 186 116 C 192 116, 198 118, 200 122 C 202 126, 200 130, 196 130" stroke-width="1.2"/>
+    <path d="M 80 100 C 74 98, 68 98, 64 100 C 60 102, 60 106, 64 108" stroke-width="1.2"/>
+    <path d="M 78 118 C 72 118, 66 120, 62 124 C 58 128, 58 132, 62 133" stroke-width="1.2"/>
+
+    <!-- Lower spines -->
+    <path d="M 194 128 C 200 130, 204 134, 204 138 C 204 142, 200 144, 196 142" stroke-width="1.1"/>
+    <path d="M 188 142 C 194 145, 196 150, 194 154 C 192 158, 188 160, 184 158" stroke-width="1.1"/>
+    <path d="M 178 156 C 182 160, 182 166, 180 170 C 178 174, 174 176, 170 174" stroke-width="1.1"/>
+
+    <!-- Fine hatching on shadow side -->
+    <path d="M 88 126 C 94 128, 100 128, 106 126" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 86 134 C 94 136, 102 136, 108 134" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 88 142 C 96 144, 104 144, 110 142" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 92 150 C 100 152, 108 152, 114 150" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 98 158 C 106 160, 112 160, 118 158" stroke-width="0.5" opacity="0.3"/>
+    <!-- Cross-hatch -->
+    <path d="M 84 126 C 86 134, 88 142, 90 150" stroke-width="0.5" opacity="0.25"/>
+    <path d="M 92 126 C 94 134, 96 142, 98 150" stroke-width="0.5" opacity="0.25"/>
+    <path d="M 100 126 C 102 134, 104 142, 106 150" stroke-width="0.5" opacity="0.25"/>
+
+    <!-- Aperture interior -->
+    <path d="M 118 166 C 112 166, 104 162, 100 154 C 96 146, 98 134, 104 128 C 110 122, 118 120, 124 124"
+      stroke-width="1.4"/>
+    <!-- Columella (inner pillar) -->
+    <path d="M 124 124 C 126 128, 128 134, 128 140 C 128 148, 126 154, 122 158"
+      stroke-width="1.1"/>
+
+  </g>
+
+  <!-- Shadow cast on ground — very subtle -->
+  <ellipse cx="1200" cy="2540" rx="520" ry="60" fill="none" stroke="#1A1209" stroke-width="2" opacity="0.1"/>
+
+  <!-- Fine rules flanking Latin name -->
+  <line x1="200" y1="2630" x2="960" y2="2630" stroke="#1A1209" stroke-width="2" opacity="0.2"/>
+  <line x1="1440" y1="2630" x2="2200" y2="2630" stroke="#1A1209" stroke-width="2" opacity="0.2"/>
+
+  <!-- Latin binomial — centered, italic, natural-history plate style -->
+  <text x="1200" y="2680"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="120" font-weight="normal"
+    letter-spacing="4"
+    fill="#1A1209"
+    opacity="0.8"
+    text-anchor="middle">Bolinus brandaris</text>
+
+  <text x="1200" y="2820"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="72" font-weight="normal"
+    letter-spacing="10"
+    fill="#1A1209"
+    opacity="0.4"
+    text-anchor="middle">LINNAEUS, 1758</text>
+
+  <!-- Plate number, lower right — pure natural-history plate affectation -->
+  <text x="2200" y="2960"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="64"
+    fill="#1A1209"
+    opacity="0.25"
+    text-anchor="end">Tab. I.</text>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Icon: "Scale" — balance scale, one side with a snail, one side with factory/numbers -->
+  <g fill="none" stroke="#1A1209" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center post -->
+    <line x1="32" y1="12" x2="32" y2="56"/>
+    <!-- Base -->
+    <path d="M 20 56 L 44 56" stroke-width="2"/>
+    <!-- Beam (tilted: snail side up = trivial, industrial side down) -->
+    <line x1="8" y1="26" x2="56" y2="22" stroke-width="1.4"/>
+    <!-- Pivot circle -->
+    <circle cx="32" cy="24" r="3" fill="#F5F0E8" stroke-width="1.4"/>
+    <!-- Left pan — snail side (higher = small) -->
+    <path d="M 8 26 C 8 30, 10 34, 16 34 C 22 34, 24 30, 24 26" stroke-width="1.2"/>
+    <!-- Right pan — industrial/numbers (lower = massive) -->
+    <path d="M 40 22 C 40 28, 42 34, 48 34 C 54 34, 56 28, 56 22" stroke-width="1.2"/>
+    <!-- Left pan contents: tiny snail spiral -->
+    <path d="M 16 30 C 14 30, 12 28, 12 26 C 12 24, 14 22, 16 22 C 18 22, 20 24, 20 26 C 20 28, 19 30, 17 30"
+      stroke-width="0.9"/>
+    <!-- Right pan contents: stacked numbers / tally marks -->
+    <line x1="44" y1="26" x2="44" y2="32" stroke-width="0.9"/>
+    <line x1="47" y1="26" x2="47" y2="32" stroke-width="0.9"/>
+    <line x1="50" y1="26" x2="50" y2="32" stroke-width="0.9"/>
+    <line x1="53" y1="26" x2="53" y2="32" stroke-width="0.9"/>
+    <line x1="42" y1="29" x2="55" y2="29" stroke-width="0.9"/>
+    <!-- Left chain -->
+    <line x1="8" y1="26" x2="8" y2="26" stroke-width="1.0"/>
+    <!-- Right chain -->
+    <line x1="56" y1="22" x2="56" y2="22" stroke-width="1.0"/>
+  </g>
+</svg>
