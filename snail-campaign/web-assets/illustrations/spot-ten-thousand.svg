@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240">
+  <!--
+    Spot illustration 4: "10,000 snails per gram" — a single gram weight
+    on a scale pan, with tiny silhouetted shell marks filling a mass
+    Abstract, evocative, not gory
+  -->
+  <g fill="none" stroke="#1A1209" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Scale platform / base -->
+    <rect x="80" y="190" width="160" height="6" rx="2" stroke-width="1.4"/>
+    <path d="M 120 190 L 100 180 L 220 180 L 200 190" stroke-width="1.0"/>
+    <!-- Platform surface -->
+    <ellipse cx="160" cy="180" rx="64" ry="10" stroke-width="1.4"/>
+
+    <!-- Gram weight — a small cylinder sitting on the scale -->
+    <rect x="138" y="140" width="44" height="40" rx="4" stroke-width="1.6"/>
+    <ellipse cx="160" cy="140" rx="22" ry="7" stroke-width="1.6"/>
+    <!-- Weight knob -->
+    <ellipse cx="160" cy="136" rx="8" ry="4" stroke-width="1.4"/>
+    <line x1="160" y1="130" x2="160" y2="124"/>
+    <!-- Weight engraving: "1g" -->
+    <text x="160" y="166"
+      font-family="Georgia, serif" font-size="12" letter-spacing="1"
+      fill="#1A1209" text-anchor="middle" stroke="none">1 g</text>
+
+    <!-- Mass of tiny shell silhouettes accumulating to fill a cloud shape -->
+    <!-- Each tiny shell: simplified spiral, ~4px -->
+    <!-- Row 1 -->
+    <g opacity="0.55" stroke-width="0.7">
+      <!-- We use a grid of minimized spiral marks to suggest the 10,000 -->
+      <!-- (Illustrative — ~60 shells shown, labeled as representative) -->
+      <path d="M 40 60 A 5 5 0 0 1 45 65 A 3 3 0 0 1 40 68 A 2 2 0 0 1 38 65"/>
+      <path d="M 55 50 A 5 5 0 0 1 60 55 A 3 3 0 0 1 55 58 A 2 2 0 0 1 53 55"/>
+      <path d="M 70 62 A 5 5 0 0 1 75 67 A 3 3 0 0 1 70 70 A 2 2 0 0 1 68 67"/>
+      <path d="M 85 52 A 5 5 0 0 1 90 57 A 3 3 0 0 1 85 60 A 2 2 0 0 1 83 57"/>
+      <path d="M 100 64 A 5 5 0 0 1 105 69 A 3 3 0 0 1 100 72 A 2 2 0 0 1 98 69"/>
+      <path d="M 115 54 A 5 5 0 0 1 120 59 A 3 3 0 0 1 115 62 A 2 2 0 0 1 113 59"/>
+      <path d="M 130 66 A 5 5 0 0 1 135 71 A 3 3 0 0 1 130 74 A 2 2 0 0 1 128 71"/>
+      <path d="M 145 56 A 5 5 0 0 1 150 61 A 3 3 0 0 1 145 64 A 2 2 0 0 1 143 61"/>
+      <path d="M 160 68 A 5 5 0 0 1 165 73 A 3 3 0 0 1 160 76 A 2 2 0 0 1 158 73"/>
+      <path d="M 175 58 A 5 5 0 0 1 180 63 A 3 3 0 0 1 175 66 A 2 2 0 0 1 173 63"/>
+      <path d="M 190 70 A 5 5 0 0 1 195 75 A 3 3 0 0 1 190 78 A 2 2 0 0 1 188 75"/>
+      <path d="M 205 60 A 5 5 0 0 1 210 65 A 3 3 0 0 1 205 68 A 2 2 0 0 1 203 65"/>
+      <path d="M 220 72 A 5 5 0 0 1 225 77 A 3 3 0 0 1 220 80 A 2 2 0 0 1 218 77"/>
+      <path d="M 235 62 A 5 5 0 0 1 240 67 A 3 3 0 0 1 235 70 A 2 2 0 0 1 233 67"/>
+      <path d="M 250 74 A 5 5 0 0 1 255 79 A 3 3 0 0 1 250 82 A 2 2 0 0 1 248 79"/>
+      <!-- Row 2 -->
+      <path d="M 47 80 A 5 5 0 0 1 52 85 A 3 3 0 0 1 47 88 A 2 2 0 0 1 45 85"/>
+      <path d="M 62 92 A 5 5 0 0 1 67 97 A 3 3 0 0 1 62 100 A 2 2 0 0 1 60 97"/>
+      <path d="M 77 82 A 5 5 0 0 1 82 87 A 3 3 0 0 1 77 90 A 2 2 0 0 1 75 87"/>
+      <path d="M 92 94 A 5 5 0 0 1 97 99 A 3 3 0 0 1 92 102 A 2 2 0 0 1 90 99"/>
+      <path d="M 107 84 A 5 5 0 0 1 112 89 A 3 3 0 0 1 107 92 A 2 2 0 0 1 105 89"/>
+      <path d="M 122 96 A 5 5 0 0 1 127 101 A 3 3 0 0 1 122 104 A 2 2 0 0 1 120 101"/>
+      <path d="M 137 86 A 5 5 0 0 1 142 91 A 3 3 0 0 1 137 94 A 2 2 0 0 1 135 91"/>
+      <path d="M 152 98 A 5 5 0 0 1 157 103 A 3 3 0 0 1 152 106 A 2 2 0 0 1 150 103"/>
+      <path d="M 167 88 A 5 5 0 0 1 172 93 A 3 3 0 0 1 167 96 A 2 2 0 0 1 165 93"/>
+      <path d="M 182 100 A 5 5 0 0 1 187 105 A 3 3 0 0 1 182 108 A 2 2 0 0 1 180 105"/>
+      <path d="M 197 90 A 5 5 0 0 1 202 95 A 3 3 0 0 1 197 98 A 2 2 0 0 1 195 95"/>
+      <path d="M 212 102 A 5 5 0 0 1 217 107 A 3 3 0 0 1 212 110 A 2 2 0 0 1 210 107"/>
+      <path d="M 227 92 A 5 5 0 0 1 232 97 A 3 3 0 0 1 227 100 A 2 2 0 0 1 225 97"/>
+      <path d="M 242 104 A 5 5 0 0 1 247 109 A 3 3 0 0 1 242 112 A 2 2 0 0 1 240 109"/>
+      <!-- Row 3 -->
+      <path d="M 54 110 A 5 5 0 0 1 59 115 A 3 3 0 0 1 54 118 A 2 2 0 0 1 52 115"/>
+      <path d="M 69 120 A 5 5 0 0 1 74 125 A 3 3 0 0 1 69 128 A 2 2 0 0 1 67 125"/>
+      <path d="M 84 112 A 5 5 0 0 1 89 117 A 3 3 0 0 1 84 120 A 2 2 0 0 1 82 117"/>
+      <path d="M 99 122 A 5 5 0 0 1 104 127 A 3 3 0 0 1 99 130 A 2 2 0 0 1 97 127"/>
+      <path d="M 114 114 A 5 5 0 0 1 119 119 A 3 3 0 0 1 114 122 A 2 2 0 0 1 112 119"/>
+      <path d="M 129 124 A 5 5 0 0 1 134 129 A 3 3 0 0 1 129 132 A 2 2 0 0 1 127 129"/>
+      <path d="M 176 116 A 5 5 0 0 1 181 121 A 3 3 0 0 1 176 124 A 2 2 0 0 1 174 121"/>
+      <path d="M 191 126 A 5 5 0 0 1 196 131 A 3 3 0 0 1 191 134 A 2 2 0 0 1 189 131"/>
+      <path d="M 206 118 A 5 5 0 0 1 211 123 A 3 3 0 0 1 206 126 A 2 2 0 0 1 204 123"/>
+      <path d="M 221 128 A 5 5 0 0 1 226 133 A 3 3 0 0 1 221 136 A 2 2 0 0 1 219 133"/>
+      <path d="M 236 120 A 5 5 0 0 1 241 125 A 3 3 0 0 1 236 128 A 2 2 0 0 1 234 125"/>
+    </g>
+
+    <!-- Ellipsis dots suggesting "and 9,940 more..." -->
+    <text x="160" y="130"
+      font-family="Georgia, serif" font-size="16" fill="#1A1209" opacity="0.35"
+      text-anchor="middle" stroke="none">· · ·</text>
+
+    <!-- The label -->
+    <text x="160" y="220"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="13" letter-spacing="3" fill="#1A1209" opacity="0.7"
+      text-anchor="middle" stroke="none">10,000 PER GRAM</text>
+    <text x="160" y="234"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="10" letter-spacing="2" fill="#1A1209" opacity="0.4"
+      text-anchor="middle" stroke="none">one gram of dye</text>
+
+    <!-- Outer dotted boundary of the shell-mass cloud -->
+    <ellipse cx="160" cy="90" rx="130" ry="52"
+      stroke-width="0.7" opacity="0.15" stroke-dasharray="3 4"/>
+
+  </g>
+</svg>

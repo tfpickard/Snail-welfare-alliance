@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Icon: "Identical molecule" — two hexagonal rings (dibromoindigo structure, simplified) with = sign -->
+  <g fill="none" stroke="#1A1209" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left hexagon (natural) -->
+    <polygon points="18,12 26,8 34,12 34,22 26,26 18,22" stroke-width="1.4"/>
+    <!-- Right hexagon (synthetic) -->
+    <polygon points="30,38 38,34 46,38 46,48 38,52 30,48" stroke-width="1.4"/>
+    <!-- Connection bond between rings -->
+    <line x1="34" y1="17" x2="30" y2="43" stroke-width="1.2"/>
+    <!-- Bromine atoms (Br) — small circles at para positions -->
+    <circle cx="18" cy="17" r="3.5" stroke-width="1.2"/>
+    <circle cx="46" cy="43" r="3.5" stroke-width="1.2"/>
+    <!-- Equals sign (large, centered) -->
+    <line x1="10" y1="28" x2="20" y2="28" stroke-width="1.8"/>
+    <line x1="10" y1="34" x2="20" y2="34" stroke-width="1.8"/>
+    <!-- Label: = -->
+    <text x="32" y="34"
+      font-family="Georgia, serif" font-size="9" letter-spacing="1"
+      fill="#1A1209" text-anchor="middle" opacity="0.5" stroke="none">6,6'-dibromoindigo</text>
+  </g>
+</svg>

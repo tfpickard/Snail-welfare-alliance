@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!--
+    Alternate mark B: Shell spiral abstraction
+    A logarithmic/Fibonacci spiral — the mathematical core of every shell
+    Clean, geometric yet organic. Reads at small sizes. Excellent as favicon.
+    Engraver's Black, line art, single weight
+  -->
+  <g fill="none" stroke="#1A1209" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Outer arc — largest quarter turn -->
+    <path d="M 60 14
+      A 46 46 0 0 1 106 60"/>
+
+    <!-- Second arc -->
+    <path d="M 106 60
+      A 28 28 0 0 1 60 88"/>
+
+    <!-- Third arc -->
+    <path d="M 60 88
+      A 17 17 0 0 1 43 60"/>
+
+    <!-- Fourth arc -->
+    <path d="M 43 60
+      A 11 11 0 0 1 60 49"/>
+
+    <!-- Fifth arc -->
+    <path d="M 60 49
+      A 6 6 0 0 1 66 60"/>
+
+    <!-- Sixth arc (tight inner spiral) -->
+    <path d="M 66 60
+      A 3.5 3.5 0 0 1 60 63.5"/>
+
+    <!-- Micro inner turn -->
+    <path d="M 60 63.5
+      A 2 2 0 0 1 58 60
+      A 2 2 0 0 1 60 58"/>
+
+    <!-- Small dot at center -->
+    <circle cx="60" cy="60" r="1.2" fill="#1A1209" stroke="none"/>
+
+    <!-- Fine radial growth lines (optional cross-hatching to suggest shell texture) -->
+    <!-- Growth line 1 -->
+    <path d="M 60 14 C 58 24, 56 34, 56 44" stroke-width="0.6" opacity="0.5"/>
+    <!-- Growth line 2 -->
+    <path d="M 90 20 C 86 28, 82 38, 78 48" stroke-width="0.6" opacity="0.5"/>
+    <!-- Growth line 3 -->
+    <path d="M 106 60 C 98 62, 90 65, 82 68" stroke-width="0.6" opacity="0.5"/>
+
+  </g>
+</svg>

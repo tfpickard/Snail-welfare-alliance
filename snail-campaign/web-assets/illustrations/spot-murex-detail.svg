@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  <!--
+    Spot illustration 1: Botanical-plate-style murex shell detail
+    Close-up of Bolinus brandaris shell — natural history engraving aesthetic
+    Full detail: sutures, spines, siphonal canal, aperture lip
+  -->
+  <g fill="none" stroke="#1A1209" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Primary body outline -->
+    <path d="M 140 175
+      C 102 175, 74 152, 74 122
+      C 74 92, 98 68, 128 64
+      C 158 60, 182 76, 186 100
+      C 190 122, 176 146, 156 154
+      C 138 162, 118 154, 114 138
+      C 110 122, 120 108, 136 106
+      C 152 104, 164 114, 164 130
+      C 164 142, 156 150, 146 150
+      C 136 150, 130 144, 132 136"
+      stroke-width="1.8"/>
+
+    <!-- Spire — multiple tight whorls -->
+    <path d="M 128 64 C 130 52, 134 42, 138 34" stroke-width="1.8"/>
+    <path d="M 138 34 C 140 28, 144 24, 148 22 C 152 20, 158 22, 162 28 C 166 34, 166 44, 162 54 C 158 62, 152 68, 148 70"
+      stroke-width="1.8"/>
+
+    <!-- Upper spire whorl 2 -->
+    <path d="M 148 70 C 150 62, 154 56, 156 52 C 158 48, 160 48, 161 50 C 163 54, 162 60, 158 66"
+      stroke-width="1.6"/>
+
+    <!-- Suture lines (5 visible) -->
+    <path d="M 80 118 C 94 112, 110 108, 128 108 C 146 108, 162 112, 176 118" stroke-width="1.0"/>
+    <path d="M 84 102 C 96 96, 112 92, 130 91 C 148 90, 162 94, 174 100" stroke-width="0.9"/>
+    <path d="M 90 86 C 100 81, 114 78, 130 77 C 146 76, 160 79, 172 84" stroke-width="0.8"/>
+    <path d="M 100 72 C 108 68, 120 65, 134 65 C 148 65, 160 68, 168 73" stroke-width="0.7"/>
+
+    <!-- Siphonal canal — long, narrow, slightly curved -->
+    <path d="M 100 166
+      C 92 172, 86 180, 82 190
+      C 80 196, 82 200, 86 200
+      C 90 200, 92 196, 94 190
+      C 96 184, 100 178, 106 172
+      C 110 168, 114 166, 118 166"
+      stroke-width="1.8"/>
+
+    <!-- Outer lip (parietal region) -->
+    <path d="M 186 100
+      C 194 100, 200 104, 200 112
+      C 200 122, 194 132, 186 140
+      C 182 144, 178 150, 174 158
+      C 170 164, 166 170, 162 174
+      C 158 177, 154 178, 150 176
+      C 146 174, 144 172, 142 172"
+      stroke-width="1.8"/>
+
+    <!-- Varices / axial ribs (3 prominent ridges per whorl) -->
+    <!-- Rib 1 -->
+    <path d="M 186 100 C 190 92, 190 82, 186 74 C 182 66, 174 62, 166 62"
+      stroke-width="1.4"/>
+    <!-- Rib 2 -->
+    <path d="M 80 118 C 74 110, 72 98, 76 88 C 80 78, 88 72, 96 70"
+      stroke-width="1.4"/>
+
+    <!-- Shoulder spines (row of 5 prominent) -->
+    <path d="M 162 54 C 166 50, 172 48, 174 44 C 176 40, 174 36, 170 36"/>
+    <path d="M 172 66 C 178 63, 184 62, 188 60 C 192 58, 192 54, 188 53"/>
+    <path d="M 180 80 C 186 78, 192 78, 196 78 C 200 78, 202 75, 200 72"/>
+    <path d="M 186 96 C 192 95, 198 96, 202 98 C 206 100, 206 104, 202 106"/>
+    <path d="M 186 116 C 192 116, 198 118, 200 122 C 202 126, 200 130, 196 130"/>
+
+    <!-- Lower spines on outer lip -->
+    <path d="M 194 128 C 200 130, 204 134, 204 138 C 204 142, 200 144, 196 142"/>
+    <path d="M 188 142 C 194 145, 196 150, 194 154 C 192 158, 188 160, 184 158"/>
+    <path d="M 178 156 C 182 160, 182 166, 180 170 C 178 174, 174 176, 170 174"/>
+
+    <!-- Fine hatching on body whorl shadow side (cross-hatch, sparse) -->
+    <path d="M 88 126 C 94 128, 100 128, 106 126" stroke-width="0.6" opacity="0.35"/>
+    <path d="M 86 134 C 94 136, 102 136, 108 134" stroke-width="0.6" opacity="0.35"/>
+    <path d="M 88 142 C 96 144, 104 144, 110 142" stroke-width="0.6" opacity="0.35"/>
+    <path d="M 92 150 C 100 152, 108 152, 114 150" stroke-width="0.6" opacity="0.35"/>
+
+    <!-- Latin name annotation -->
+    <text x="44" y="192"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-style="italic"
+      font-size="10" fill="#1A1209" opacity="0.55">Bolinus brandaris</text>
+
+  </g>
+</svg>

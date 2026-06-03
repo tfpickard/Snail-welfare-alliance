@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!--
+    Alternate mark C: Whole snail — shell on back, body extended, antennae up
+    Gentle and characterful. Not cartoonish — proportions naturalistic.
+    Side profile, moving left to right. Engraver's Black, line art.
+  -->
+  <g fill="none" stroke="#1A1209" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Shell (coiled, on back of the snail body) -->
+    <!-- Outer shell whorl -->
+    <path d="M 65 45
+      C 72 38, 88 36, 94 46
+      C 100 56, 94 70, 84 74
+      C 74 78, 62 74, 58 64
+      C 54 54, 60 44, 68 42
+      C 76 40, 82 46, 80 54
+      C 78 60, 72 62, 68 60
+      C 64 58, 64 54, 67 52"/>
+
+    <!-- Inner whorl -->
+    <path d="M 67 52 C 69 50, 72 50, 74 52 C 76 54, 75 57, 73 58"/>
+
+    <!-- Shell apex (spire tip) -->
+    <path d="M 65 45 C 64 38, 66 32, 68 29"/>
+    <path d="M 68 29 C 70 27, 72 27, 74 29 C 76 31, 76 36, 74 40"/>
+
+    <!-- Suture line on shell -->
+    <path d="M 58 58 C 62 54, 68 52, 74 54" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- Body / foot — extended forward -->
+    <!-- Mantle / upper body edge -->
+    <path d="M 58 64
+      C 50 68, 38 72, 26 74
+      C 18 76, 12 78, 10 80"/>
+
+    <!-- Underside / foot sole -->
+    <path d="M 10 80
+      C 12 82, 20 84, 32 84
+      C 44 84, 56 82, 68 80
+      C 78 78, 86 76, 94 74"/>
+
+    <!-- Foot connects to shell base -->
+    <path d="M 94 74 C 92 76, 88 78, 84 80 C 80 82, 76 82, 72 82"/>
+
+    <!-- Head — slightly raised at left -->
+    <path d="M 10 80
+      C 8 76, 8 72, 10 68
+      C 12 64, 16 62, 20 62
+      C 24 62, 26 64, 26 68
+      C 26 72, 24 74, 22 74"/>
+
+    <!-- Eye tentacles (optical — long) -->
+    <path d="M 14 64 C 12 56, 11 48, 10 42"/>
+    <path d="M 10 42 C 10 40, 11 39, 12 39 C 13 39, 14 40, 14 42"/>
+    <!-- Right tentacle -->
+    <path d="M 20 63 C 20 55, 21 47, 22 41"/>
+    <path d="M 22 41 C 22 39, 23 38, 24 38 C 25 38, 26 39, 26 41"/>
+
+    <!-- Oral tentacles (short, lower) -->
+    <path d="M 12 72 C 10 74, 8 76, 7 78"/>
+    <path d="M 16 70 C 14 72, 12 74, 11 76"/>
+
+    <!-- Body texture — a few gentle undulation lines on the foot -->
+    <path d="M 30 82 C 32 80, 36 80, 38 82" stroke-width="0.7" opacity="0.6"/>
+    <path d="M 46 83 C 48 81, 52 81, 54 83" stroke-width="0.7" opacity="0.6"/>
+
+  </g>
+</svg>

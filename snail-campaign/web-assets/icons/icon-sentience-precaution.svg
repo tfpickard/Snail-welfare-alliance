@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Icon: "Sentience/precaution" — a question mark inside a neural-ish circuit/snail -->
+  <g fill="none" stroke="#1A1209" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stylized snail outline, simplified -->
+    <path d="M 32 50
+      C 18 50, 10 42, 10 32
+      C 10 22, 18 14, 28 12
+      C 38 10, 48 16, 50 26
+      C 52 36, 46 46, 36 49"/>
+    <!-- Inner spiral of snail body = question mark spiral -->
+    <!-- Q mark top arc -->
+    <path d="M 24 28
+      C 24 22, 28 18, 32 18
+      C 36 18, 40 22, 40 28
+      C 40 34, 36 38, 32 40"/>
+    <!-- Q mark stem -->
+    <line x1="32" y1="40" x2="32" y2="44"/>
+    <!-- Q mark dot -->
+    <circle cx="32" cy="47" r="1.8" fill="#1A1209" stroke="none"/>
+    <!-- Small neural nodes -->
+    <circle cx="16" cy="32" r="2" stroke-width="1.0"/>
+    <circle cx="20" cy="20" r="2" stroke-width="1.0"/>
+    <circle cx="44" cy="32" r="2" stroke-width="1.0"/>
+    <!-- Connecting lines (dendrites) -->
+    <line x1="16" y1="32" x2="20" y2="20" stroke-width="0.8" opacity="0.5"/>
+    <line x1="44" y1="32" x2="40" y2="26" stroke-width="0.8" opacity="0.5"/>
+  </g>
+</svg>

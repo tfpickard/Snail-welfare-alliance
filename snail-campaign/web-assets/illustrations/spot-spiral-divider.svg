@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 80" width="600" height="80">
+  <!--
+    Spot illustration 3: Section divider — centered shell ornament with flanking rules
+    Elegant typographic ornament for between-section use
+  -->
+  <g fill="none" stroke="#1A1209" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Left rule -->
+    <line x1="20" y1="40" x2="220" y2="40" stroke-width="0.6" opacity="0.3"/>
+    <!-- Left decorative swash -->
+    <path d="M 200 40 C 210 36, 216 32, 220 28" stroke-width="0.7" opacity="0.4"/>
+
+    <!-- Right rule -->
+    <line x1="380" y1="40" x2="580" y2="40" stroke-width="0.6" opacity="0.3"/>
+    <!-- Right decorative swash -->
+    <path d="M 400 40 C 390 36, 384 32, 380 28" stroke-width="0.7" opacity="0.4"/>
+
+    <!-- Center ornament: small shell spiral -->
+    <g transform="translate(300, 40) scale(0.45)">
+      <!-- Outer arc -->
+      <path d="M 0 -42 A 42 42 0 0 1 42 0" stroke-width="2.2"/>
+      <!-- Second arc -->
+      <path d="M 42 0 A 26 26 0 0 1 0 26" stroke-width="2.2"/>
+      <!-- Third arc -->
+      <path d="M 0 26 A 16 16 0 0 1 -16 0" stroke-width="2.2"/>
+      <!-- Fourth arc -->
+      <path d="M -16 0 A 9 9 0 0 1 0 -9" stroke-width="2.2"/>
+      <!-- Fifth arc -->
+      <path d="M 0 -9 A 5 5 0 0 1 5 0" stroke-width="2.2"/>
+      <!-- Center dot -->
+      <circle cx="0" cy="0" r="1.8" fill="#1A1209" stroke="none"/>
+    </g>
+
+    <!-- Flanking shell fragments (smaller, symmetric) -->
+    <!-- Left mini shell -->
+    <g transform="translate(248, 40) scale(0.28)">
+      <path d="M 0 -36 A 36 36 0 0 1 36 0 A 22 22 0 0 1 0 22 A 13 13 0 0 1 -13 0 A 8 8 0 0 1 0 -8 A 4 4 0 0 1 4 0"
+        stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="1.5" fill="#1A1209" stroke="none"/>
+    </g>
+    <!-- Right mini shell (mirrored) -->
+    <g transform="translate(352, 40) scale(-0.28, 0.28)">
+      <path d="M 0 -36 A 36 36 0 0 1 36 0 A 22 22 0 0 1 0 22 A 13 13 0 0 1 -13 0 A 8 8 0 0 1 0 -8 A 4 4 0 0 1 4 0"
+        stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="1.5" fill="#1A1209" stroke="none"/>
+    </g>
+
+  </g>
+</svg>

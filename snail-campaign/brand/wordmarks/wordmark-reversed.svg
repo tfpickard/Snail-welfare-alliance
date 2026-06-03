@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <rect width="320" height="80" fill="#5C0A3A"/>
+  <line x1="0" y1="12" x2="320" y2="12" stroke="#F5F0E8" stroke-width="0.7" opacity="0.3"/>
+  <text x="160" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="normal" letter-spacing="8" fill="#F5F0E8" text-anchor="middle">SAVE THE</text>
+  <text x="160" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="normal" letter-spacing="10" fill="#F5F0E8" text-anchor="middle">SNAILS</text>
+  <line x1="0" y1="76" x2="320" y2="76" stroke="#F5F0E8" stroke-width="0.7" opacity="0.3"/>
+</svg>
