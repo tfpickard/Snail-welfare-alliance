@@ -21,6 +21,11 @@ ready to deploy:
 - **Privacy** (`/privacy`), **Terms** (`/terms`).
 - SEO: per-page metadata, generated OG image, `sitemap.xml`, `robots.txt`,
   JSON-LD Organization. Redirects `/the-facts → /the-case`, `/donate → /take-action`.
+- **The Terrarium** game is fully built and **flag-gated off** — adoption, lazy
+  real-time simulation, estivation safety, procedural snail art, social feed,
+  care leaderboards, consent breeding, lineage, memorials, and cron jobs. Pure
+  engines are unit-tested (16 tests). It is dormant until you provision auth + DB
+  (below); the public site is unaffected and never loads its code.
 
 ---
 
@@ -96,8 +101,11 @@ production you must provision:
 2. **OAuth apps** (Google + GitHub), callback `https://<domain>/api/auth/callback/<provider>`
    → `AUTH_GOOGLE_ID/SECRET`, `AUTH_GITHUB_ID/SECRET`, plus `AUTH_SECRET`
    (`openssl rand -base64 32`).
-3. Run migrations + seed (`npm run db:migrate`, `npm run db:seed` — see web README).
-4. Set `NEXT_PUBLIC_TERRARIUM_ENABLED=true` and `CRON_SECRET`; redeploy.
+3. Apply the schema: `npm run db:migrate` (initial migration is already generated
+   at `web/drizzle/0000_*.sql`), then optionally `npm run db:seed` for demo snails.
+4. Set `NEXT_PUBLIC_TERRARIUM_ENABLED=true` and `CRON_SECRET`; redeploy. The hourly
+   Vercel Cron (`web/vercel.json` → `/api/cron`) then drives breeding, hatching,
+   aging, and diary events.
 
 Until then, `/terrarium` and its nav entry stay hidden.
 
