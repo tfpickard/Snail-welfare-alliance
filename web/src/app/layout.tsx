@@ -45,14 +45,13 @@ export const metadata: Metadata = {
     description:
       "10,000 sea snails per gram of a dye that has been synthetic since 1904. The snail is lovely. The math is the indictment.",
     url: ORG.url,
-    images: [{ url: "/images/hero-contrast-pair.svg", width: 900, height: 480 }],
+    // og:image is provided by app/opengraph-image.tsx (generated 1200×630 PNG).
   },
   twitter: {
     card: "summary_large_image",
     title: `${ORG.name}`,
     description:
       "10,000 sea snails per gram of a dye that has been synthetic since 1904.",
-    images: ["/images/hero-contrast-pair.svg"],
   },
   robots: { index: true, follow: true },
 };
@@ -66,6 +65,24 @@ export default function RootLayout({
       className={`${cormorant.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-vellum text-engravers">
+        <script
+          type="application/ld+json"
+          // Organization structured data. No fabricated legal/registration claims.
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: ORG.name,
+              alternateName: ORG.short,
+              url: ORG.url,
+              email: ORG.email,
+              slogan: ORG.tagline,
+              description:
+                "A coalition working to end the needless killing of sea snails — most vividly for Tyrian purple dye — through a precautionary, evidence-led case.",
+              logo: `${ORG.url}/images/logos/mark-primary-purple.svg`,
+            }),
+          }}
+        />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-tyrian focus:px-4 focus:py-2 focus:text-vellum"
