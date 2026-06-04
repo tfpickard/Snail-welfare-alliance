@@ -1,26 +1,276 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  Snail Welfare Alliance — design system.
+  Antiquarian natural-history engraving meets restrained modern editorial.
+  Vellum, never white. Warm near-black ink, never #000. Tyrian purple rationed.
+  No dark mode by design.
+*/
+
+@theme {
+  /* Brand palette (all pairings clear WCAG AAA per brand-guide.md) */
+  --color-tyrian: #5c0a3a;
+  --color-imperial: #3a0025;
+  --color-murex-bloom: #8b1a5c;
+  --color-vellum: #f5f0e8;
+  --color-bone: #ede6d4;
+  --color-engravers: #1a1209;
+  --color-murex-ivory: #d4c5a0;
+
+  /* Semantic aliases */
+  --color-background: var(--color-vellum);
+  --color-foreground: var(--color-engravers);
+
+  /* Typefaces — wired to next/font variables in layout.tsx */
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* Editorial display scale */
+  --text-display: clamp(2.6rem, 6vw, 5rem);
+  --text-display--line-height: 1.04;
+  --text-hero: clamp(2.1rem, 4.5vw, 3.5rem);
+  --text-hero--line-height: 1.08;
+
+  /* Motion */
+  --ease-engraving: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ─── Base ─────────────────────────────────────────────────────────── */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-vellum);
+    color: var(--color-engravers);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem; /* 17px */
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  ::selection {
+    background-color: var(--color-tyrian);
+    color: var(--color-vellum);
+  }
+
+  /* Visible, on-brand focus ring everywhere */
+  :focus-visible {
+    outline: 2px solid var(--color-tyrian);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Honor reduced-motion globally */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Components / utilities ───────────────────────────────────────── */
+
+@layer components {
+  /* Tracked small-caps eyebrow + stat labels */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-tyrian);
+  }
+
+  .stat-label {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--color-engravers) 70%, transparent);
+  }
+
+  /* Optimal reading measure for long-form */
+  .measure {
+    max-width: 68ch;
+  }
+
+  /* ─── Editorial prose (rendered markdown + authored long-form) ─── */
+  .prose-swa {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: color-mix(in srgb, var(--color-engravers) 92%, transparent);
+  }
+  .prose-swa > * + * {
+    margin-top: 1.15em;
+  }
+  .prose-swa h2 {
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    margin-top: 2.4em;
+    margin-bottom: 0.2em;
+    scroll-margin-top: 6rem;
+  }
+  .prose-swa h3 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    margin-top: 1.8em;
+    margin-bottom: 0.1em;
+    scroll-margin-top: 6rem;
+  }
+  .prose-swa h2 + *,
+  .prose-swa h3 + * {
+    margin-top: 0.6em;
+  }
+  .prose-swa a {
+    color: var(--color-tyrian);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-tyrian) 40%, transparent);
+    text-underline-offset: 2px;
+  }
+  .prose-swa a:hover {
+    color: var(--color-murex-bloom);
+  }
+  .prose-swa strong {
+    font-weight: 600;
+    color: var(--color-engravers);
+  }
+  .prose-swa em {
+    font-style: italic;
+  }
+  .prose-swa ul,
+  .prose-swa ol {
+    padding-left: 1.4em;
+  }
+  .prose-swa ul {
+    list-style: none;
+  }
+  .prose-swa ul > li {
+    position: relative;
+  }
+  .prose-swa ul > li::before {
+    content: "—";
+    position: absolute;
+    left: -1.4em;
+    color: var(--color-tyrian);
+  }
+  .prose-swa ol {
+    list-style: decimal;
+  }
+  .prose-swa li + li {
+    margin-top: 0.4em;
+  }
+  .prose-swa blockquote {
+    border-left: 2px solid var(--color-tyrian);
+    padding-left: 1.1em;
+    font-family: var(--font-display);
+    font-size: 1.3em;
+    line-height: 1.35;
+    font-style: italic;
+    color: var(--color-imperial);
+  }
+  .prose-swa hr {
+    border: 0;
+    border-top: 1px solid color-mix(in srgb, var(--color-engravers) 18%, transparent);
+    margin: 2.5em 0;
+  }
+  .prose-swa table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+  }
+  .prose-swa th,
+  .prose-swa td {
+    border: 1px solid color-mix(in srgb, var(--color-engravers) 18%, transparent);
+    padding: 0.5em 0.7em;
+    text-align: left;
+  }
+  .prose-swa th {
+    background-color: color-mix(in srgb, var(--color-bone) 70%, transparent);
+    font-weight: 600;
+  }
+  .prose-swa code {
+    font-size: 0.9em;
+    background-color: color-mix(in srgb, var(--color-bone) 80%, transparent);
+    padding: 0.1em 0.35em;
+    border-radius: 2px;
+  }
+
+  /* Primary purple CTA — the dye itself */
+  .btn-tyrian {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-tyrian);
+    color: var(--color-vellum);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2px;
+    transition: background-color 0.25s var(--ease-engraving);
+  }
+  .btn-tyrian:hover {
+    background-color: var(--color-murex-bloom);
+  }
+
+  /* Secondary outline button */
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--color-engravers) 35%, transparent);
+    color: var(--color-engravers);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2px;
+    transition: border-color 0.25s var(--ease-engraving),
+      background-color 0.25s var(--ease-engraving);
+  }
+  .btn-outline:hover {
+    border-color: var(--color-tyrian);
+    background-color: color-mix(in srgb, var(--color-tyrian) 6%, transparent);
+  }
+}
+
+@layer utilities {
+  /* Scroll-reveal: fade-up. Default hidden; .is-visible reveals. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(1.25rem);
+    transition: opacity 0.7s var(--ease-engraving),
+      transform 0.7s var(--ease-engraving);
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+    }
+  }
 }
