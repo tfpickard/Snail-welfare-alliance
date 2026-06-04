@@ -255,6 +255,24 @@
 }
 
 @layer utilities {
+  /* Terrarium: a slow, calm crawl/sway. Paused by the global reduced-motion
+     reset above, so no extra guard needed. */
+  @keyframes snail-crawl {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(2.5%); }
+  }
+  @keyframes snail-sway {
+    0%, 100% { transform: rotate(-0.6deg); }
+    50% { transform: rotate(0.6deg); }
+  }
+  .snail-crawl {
+    animation: snail-crawl 12s var(--ease-engraving) infinite;
+  }
+  .snail-crawl .snail-body {
+    transform-origin: 40px 100px;
+    animation: snail-sway 7s var(--ease-engraving) infinite;
+  }
+
   /* Scroll-reveal: fade-up. Default hidden; .is-visible reveals. */
   .reveal {
     opacity: 0;

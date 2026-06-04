@@ -10,8 +10,8 @@ import {
   pgEnum,
   index,
 } from "drizzle-orm/pg-core";
-import { createId } from "@/lib/terrarium/id";
-import type { Genome } from "@/lib/terrarium/genetics";
+import { createId } from "../lib/terrarium/id";
+import type { Genome } from "../lib/terrarium/genetics";
 
 /* ─── Auth.js (NextAuth v5) adapter tables ───────────────────────────── */
 
