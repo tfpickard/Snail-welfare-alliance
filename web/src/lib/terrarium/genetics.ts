@@ -77,16 +77,23 @@ function rollFounderHue(rng: Rng): number {
 export function breedGenomes(a: Genome, b: Genome, seed: number): Genome {
   const rng = makeRng(seed);
 
+  // Order-independent (hermaphroditic): combine via min/max so the weighting is
+  // symmetric in the two parents, while still "weighted" (rarely a flat average).
   const blend = (x: number, y: number): number => {
-    const w = range(rng, 0.35, 0.65); // weighted, not strictly 50/50
-    let v = x * w + y * (1 - w);
+    const lo = Math.min(x, y);
+    const hi = Math.max(x, y);
+    const w = range(rng, 0.35, 0.65);
+    let v = lo * w + hi * (1 - w);
     if (rng() < MUTATION_RATE) v += range(rng, -0.25, 0.25); // mutation
     return clamp01(v);
   };
 
   const inheritCat = <T,>(x: T, y: T, options: readonly T[]): T => {
     if (rng() < MUTATION_RATE) return pick(rng, options); // mutation
-    return rng() < 0.5 ? x : y;
+    // Canonicalize order so inheritance is order-independent.
+    const [first, second] =
+      options.indexOf(x) <= options.indexOf(y) ? [x, y] : [y, x];
+    return rng() < 0.5 ? first : second;
   };
 
   return {
